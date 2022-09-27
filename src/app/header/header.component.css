@@ -1,0 +1,187 @@
+/*nav 
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing:border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid  #fff;
+}
+nav .logo 
+{
+    padding:22px 20px;
+    height: 80px;
+    float:left;
+    font-size:24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+}
+nav ul 
+{
+    list-style:none;
+    float:right;
+    margin:0;
+    padding: flex;
+    display:flex;
+}
+nav ul li a 
+{
+    line-height: 80px;
+    color:#fff;
+    padding:12px 30px;
+     text-decoration: none;
+     font-size:14px;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+nav ul li a:hover 
+{
+    background: teal;
+    border-radius:6px;
+    
+}*/
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	/*background: #2874f0;*/
+    background: #00297A;
+	padding: 11px 0;
+}
+
+input{
+	width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    outline: 0 !important;
+}
+
+.relative{
+	position: relative;
+}
+.relative i{
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    right: 10px;
+}
+
+button.login-btn{
+	background: #fff;
+	padding: 4px 30px;
+	border-radius: 3px;
+
+}
+
+.more-btn{
+	color: #fff;
+}
+
+.more-btn:hover{
+	color: #fff;
+}
+
+ul.dropdown-menu{
+	line-height: 2;
+    padding: 10px;
+}
+
+ul.dropdown-menu li a{
+	color: #000;
+	text-decoration: none;
+}
+.heading_categories 
+{
+    background: #fff;
+    justify-content:center;
+    min-height:112px;
+    border-bottom:2px solid lightgrey;
+}
+.heading_category_list 
+{
+    list-style:none;
+    max-width: 1280px;
+    justify-content: space-between;
+    width: 100%;
+}
+.heading_category_items
+{
+    padding:12px 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.heading_category_items:hover 
+{
+    color:#2874f0;
+}
+.cat_image 
+{
+    height:64px;
+    width:64px;
+    margin-bottom:3px;
+}
+.flex 
+{
+    display:flex;
+    margin-bottom:-10px;
+}
+.fa 
+{
+    margin:0px 4px;
+}
+.fa-angle-down 
+{
+    font-weight:lighter;
+    margin: 0;
+}
+.x 
+{
+    
+    
+    padding:10px;
+}
+.za 
+{
+    color:#fff;
+    position:relative;
+   right:90px;
+   top:5px;
+   font-size:20px;
+}
+.n 
+{
+    border: transparent;
+    border-radius:60px;
+   
+}
+.n:hover 
+{
+    background:green;
+    color:#fff;
+}
+.m 
+{
+    position: relative;
+    left:10px;
+    background: #00297A;
+    border-radius:60px;
+}
+.m:hover 
+{
+    background:orange;
+    color:#fff;
+}
+.xcs 
+{
+    background-color: #fff;
+}

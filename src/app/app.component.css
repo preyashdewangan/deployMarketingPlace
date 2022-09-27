@@ -1,0 +1,492 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.banner
+{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("http://cdn.home-designing.com/wp-content/uploads/2016/04/Multipurpose-Living-Space-Studio.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar 
+{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+}
+.logo 
+{
+    width:120px;
+    cursor:pointer;
+}
+.navbar ul li 
+{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navbar ul li a 
+{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after 
+{
+    content: '';
+    height:3px;
+    width:0;
+    background: red/*#009688*/;
+    position:absolute;
+    left:0;
+    bottom:0px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after 
+{
+ width:100%;
+}
+.content 
+{
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+.content h1 
+{
+    font-size:70px;
+    margin-top:80px;
+}
+.content p 
+{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button 
+{
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid red;/*#009688;*/
+    background: transparent;
+    color:#fff;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}  
+.button1 
+{
+   
+    border:2px solid red;/*#009688;*/
+    
+}  
+.button2 
+{
+    
+    border:2px solid  yellow;/*#009688;*/
+  
+}  
+span 
+{
+    background: red;/*#009688;*/
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width:100%;
+}
+button:hover 
+{
+    border:none;
+}
+.line 
+{
+    width:150px;
+    height:4px;
+    background: #fc036b;
+    margin:10px auto;
+    border-radius:5px;
+}
+section 
+{
+    width:80%;
+    margin:80px auto;
+}
+.title 
+{
+    text-align:center;
+    font-size:4vmin;
+    color:#49497e;
+}
+.row 
+{
+    display:flex;
+    align-items: center;
+    width:100%;
+   justify-content: space-between;
+
+
+}
+.row .col 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row 
+{
+    margin-top:50px;
+
+}
+.h8 
+{
+    font-size:3vmin;
+    color:#484872;
+    position: relative;
+    left: 100px;
+    margin: 50px auto;
+    
+}
+.h9 
+{
+    font-size:3vmin;
+    color:#484872;
+   position: relative;
+    left: 200px;
+    margin: 50px auto;
+    
+}
+.p1 
+{
+    color:#7c7c7c;
+    position: relative;
+    bottom:15px;
+}
+.p2 
+{
+    color:#7c7c7c;
+    position: relative;
+    left:20%;
+    bottom:15px;
+}
+.events .ctn 
+{
+    margin-top:30px;
+}
+.z 
+{
+    height: 300px;
+    width: 500px;
+   position: relative;
+    right: 70px;
+    border-radius: 50px;
+}
+.x 
+{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 40px;
+    border-radius: 50px;
+}
+.ctn1 
+{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+   position: relative;
+    left: 120px;
+    top:15px;
+    color: whitesmoke;
+}
+.ctn2 
+{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    position: relative;
+    left: 210px;
+    top:15px;
+    color: whitesmoke;
+}
+.cx 
+{
+    background-color: #f2f2f2;
+    width:100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height:500px;
+
+}
+.g 
+{
+    padding-left: 100px;
+   
+    font-weight: 700;
+}
+.ws 
+{
+    text-align: justify;
+    color:black;
+    font-weight: lighter;
+}
+.xc 
+{
+    height:300px;
+    position: relative;
+    left: 50px;
+}
+/*.bg-1 {
+   background:url("http://cdn.home-designing.com/wp-content/uploads/2019/04/living-room-pendant-light.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    width:100%;
+    background-attachment:fixed ;
+}*/
+.bg-1{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://www.thespruce.com/thmb/psh2haBAUlmntkQ3VLxDyehi5lo=/2119x1414/filters:fill(auto,1)/GettyImages-1161177015-f1de4ba58a6c4f50969d9119d80405a6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+  height: 300px;
+  
+}
+.zs 
+{
+    background:url("https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg");
+    height:700px;
+    
+}
+.kj
+{
+    font-weight:700;
+    text-align: center;
+    padding: 100px;
+}
+.ia
+{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    position: relative;
+    left:70px;
+}
+.ib
+{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    position: relative;
+    left:70px;
+}
+.ic
+{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+
+    position: relative;
+    left:70px;
+}
+.id
+{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    position: relative;
+    left:70px;
+}
+.aa 
+{
+  font-weight: 100;
+  font-size: 25px;
+  position: relative;
+    left:120px;
+    top:20px;
+}
+.bb
+{
+    font-weight: 100;
+    font-size: 25px;
+    position: relative;
+    left:140px;
+    top:20px;
+}
+.cc 
+{
+    font-weight: 100;
+    font-size: 25px;
+    position: relative;
+    left:140px;
+    top:20px;
+}
+.dd 
+{
+    font-weight: 100;
+    font-size: 25px;
+    padding-left: 150px;
+    position: relative;
+    top:20px;
+}
+.we 
+{
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top:100px;
+}
+.wes 
+{
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    left:480px;
+    top:120px;
+}
+.line1 
+{
+    width:300px;
+    height:4px;
+    background: #fc036b;
+    margin:10px auto;
+    position: relative;
+    bottom: 90px;
+    border-radius:5px;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #070617;
+  }
+  .dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }

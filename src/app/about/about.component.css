@@ -1,0 +1,441 @@
+/*.a {
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/72201240-745268935969709-764258836165042275-n-1600337316.jpg");
+    height: 100vh;
+    width: 100%;
+   background-position: center;
+    background-size: cover;
+}
+.b
+{
+   
+    font-size: 65px;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+    position: absolute;
+    top:250px;
+    left:475px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 20px;
+   
+    font-family: 'Playball', cursive;
+}
+.c{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    left:400px;
+}
+.d{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top:430px;
+    left:530px;
+}
+.line 
+{
+    width:150px;
+    height:4px;
+    background: #fc036b;
+    position: absolute;
+    top:350px;
+   left:580px;
+    border-radius:5px;
+}
+.e
+{
+    background-color: orangered;
+    padding:300px;
+    height:750px;
+}
+.f 
+{
+    font-weight: bolder;
+    font-size:70px;
+    position: absolute;
+    bottom:-200px;
+    left:500px;
+    color:yellow;
+}
+.line1 
+{
+    width:350px;
+    height:2px;
+    background: #ffffff;
+    position: absolute;
+    bottom:-200px;
+   left:500px;
+    border-radius:5px;
+}
+.g 
+{
+    position: absolute;
+    left:50px;
+}
+.h 
+{
+    text-align: justify;
+    color:#ffffff;
+    font-weight: lighter;
+     padding-left: 100px;
+}
+.line2 
+{
+    height:300px;
+    border-right: 2px solid #ffffff;
+    position: absolute;
+    left: -30%;
+  bottom:-630px;
+}
+.i 
+{
+    position:absolute;
+    
+    left: 960px;
+    bottom: -620px;
+    
+}
+.ha 
+{
+    text-align:center;
+    font-size:3.5rem;
+    padding: 1rem;
+    color:#666;
+}
+.ha span 
+{
+    color:red;
+}
+.j .box-container
+{
+    display:flex;
+     flex-wrap:wrap ;
+    gap:1.5rem;
+   
+
+
+}
+.j .box-container .box 
+{
+    flex:1 1 30rem;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+    background-color: red;
+}
+.j .box-container .box .image
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top:-100%; left:0;
+}
+.j .box-container .box .content
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+}
+.j .box-container .box .content img 
+{
+    margin:1.5rem 0;
+
+}
+.j .box-container .box .content h3 
+{
+    font-size: 2.5rem;
+    color:#333;
+}
+.j .box-container .box .content p
+{
+    font-size: 1.6rem;
+    color:#fff;
+    padding:1rem 0;
+}
+.j .box-container .box:hover .image 
+{
+    top:0;
+
+}
+.j .box-container .box:hover .content 
+{
+    transform: translateY(100%);
+}*/
+/*.item 
+{
+    margin:0px 15px;
+    text-align: center;
+}
+.item a:hover 
+{
+    color:blue;
+}
+.card 
+{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.card img:hover 
+{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}*/
+/*body 
+{
+    background: #eee5e9;
+}*/
+.grid 
+{
+    margin:80px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:30px;
+    align-items: center;
+   
+}
+.grid > article 
+{
+   
+    border:none;
+    box-shadow:2px 2px 6px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    width:250px;
+    transition: transform .3s;
+    
+}
+.grid > article:hover
+{
+    transform: translateY(5px);
+}
+.grid > article img
+{
+    width:100%;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+.text 
+{
+    padding:0 20px 20px;
+}
+.text h3 
+{
+    text-transform:uppercase;
+    
+}
+.text button 
+{
+    
+    border-radius: 20px;
+    border: none;
+  color:white;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    /*background: #2874f0;*/
+}
+.heading_categories 
+{
+    background: #fff;
+    justify-content:center;
+    min-height:112px;
+    border-bottom:2px solid lightgrey;
+}
+.heading_category_list 
+{
+    list-style:none;
+    max-width: 1280px;
+    justify-content: space-between;
+    width: 100%;
+}
+.heading_category_items
+{
+    padding:12px 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.heading_category_items:hover 
+{
+    color:#2874f0;
+}
+.cat_image 
+{
+    height:64px;
+    width:64px;
+    margin-bottom:3px;
+}
+.flex 
+{
+    display:flex;
+    margin-bottom:-10px;
+}
+.fa 
+{
+    margin:0px 4px;
+}
+.fa-angle-down 
+{
+    font-weight:lighter;
+    margin: 0;
+}
+.x 
+{
+    
+    
+    padding:10px;
+}
+.nb 
+{
+    color:#fff;
+    border:transparent;
+   
+}
+.nb:hover 
+{
+    background-color: green;
+}
+.a1
+{
+ position: absolute;
+ top:150px;
+ left:113px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a2
+{
+ position: absolute;
+ top:150px;
+ left:210px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a3
+{
+ position: absolute;
+ top:150px;
+ left:340px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a4
+{
+ position: absolute;
+ top:150px;
+ left:480px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a5
+{
+ position: absolute;
+ top:150px;
+ left:620px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a6
+{
+ position: absolute;
+ top:150px;
+ left:760px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+  
+}
+.a7
+{
+ position: absolute;
+ top:150px;
+ left:890px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+  
+}
+.a8
+{
+ position: absolute;
+ top:150px;
+ left:1030px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a9
+{
+ position: absolute;
+ top:150px;
+ left:1150px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+}
+.a10
+{
+ position: absolute;
+ top:173px;
+ left:1235px;
+ /*&:hover 
+ {
+   color:blue;
+ }*/
+ cursor: pointer;
+  
+}
+.g 
+{
+  box-shadow:700px 10000px;
+  padding: 8px;
+  border: lightgray 1px;
+  background-color: #ededed
+}
+.az 
+{
+  margin:40px;
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+  position: relative;
+  margin-top:20px;
+  left:70px;
+ 
+}
+.nh:hover 
+{
+  background-color: black;
+  color:white;
+}

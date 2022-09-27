@@ -1,0 +1,225 @@
+/*.a {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.60),rgba(0,0,0,0.60)),
+    url("https://i0.wp.com/www.renelf.com/wp-content/uploads/2021/04/steve-daniel-PWlf4B38YJ8-unsplash-1.jpg?fit=1920%2C1280&ssl=1");
+    
+    height: 100vh;
+    width: 100%;
+   background-position: center;
+    background-size: cover;
+}
+.b
+{
+   
+    font-size: 65px;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+    position: absolute;
+    top:250px;
+    left:500px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-family: 'Playball', cursive;
+}
+.c{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    left:400px;
+}
+.d{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top:430px;
+    left:530px;
+}
+.line 
+{
+    width:150px;
+    height:4px;
+    background: #fc036b;
+    position: absolute;
+    top:350px;
+   left:580px;
+    border-radius:5px;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: #fff2fe;
+}
+
+.vd{
+    padding: 5rem 10%;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.blog .box-container{
+    /*display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;*/
+    /*display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;    
+}*/
+
+/*.blog .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blog .box-container .box.shadow{
+    box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
+}
+
+
+.blog .box-container .box .image{
+    height: 20rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; 
+}
+
+.blog .box-container .box .image h3{
+    background-color: #fff;
+    color: #444;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.blog .box-container .box .image h3 i{
+    color: #bd18b4;
+}
+
+.blog .box-container .box .content{
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.blog .box-container .box .content h3{
+    font-size: 1.5rem;
+}
+
+.blog .box-container .box .content p{
+    font-size: 1rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: #777;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: 0.1rem solid #bd18b4;
+    background: #ffeeff;
+    color: #bd18b4;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background: #bd18b4;
+    color: #ffeeff;
+}
+.sd 
+{
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url("https://www.jtgtravel.com/wp-content/uploads/2021/12/indian-food-2021-10-21-04-03-18-utc.jpg");
+    height: 90vh;
+    width: 100%;
+   background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.e3 
+{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.bh 
+{
+    padding: 130px;
+   position: relative;
+   left:150px;
+  
+}
+.bg 
+{
+    
+   position: relative;
+  left:30px;
+  top:10px;
+    font-size: 15px;
+    color: #777777;
+    font-family: 'Merriweather',serif;
+    font-style: italic; 
+    max-width: 660px;
+    font-weight: 300;
+    color:#fff;
+}
+.bx
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+    line-height: 2.3em;
+    font-weight: 400;
+    position: relative;
+  
+  top:30px;
+    
+
+}*/
+.bn 
+{
+    border:transparent;
+}
+.bn:hover 
+{
+    background-color: red;
+
+}
+.vf 
+{
+    border: transparent;
+}
+.vf:hover 
+{
+    background-color: yellow;
+}

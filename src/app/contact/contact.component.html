@@ -1,0 +1,246 @@
+<!--<section class="a">
+    <h1 class="b">Contact Us</h1>
+<div class="line"></div>
+    
+   
+    <p class="c">These days are all Happy and Free these days are all share</p>
+                 <p class="d"> them with me oh baby you.</p>
+
+</section>
+<body>
+<section class="f">
+    <img class="e" src="https://i.pinimg.com/originals/3a/79/ee/3a79ee5106ead202550fa9116bde00c8.jpg">
+    <h2 class="g">Keep in Touch with Us</h2>
+    <h4 class="h">Contact us</h4>
+    <!--<form [formGroup]="loginForm" (ngSubmit)="submit">
+      <div class="imgcontainer">
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" formControlName="loginUser">
+      <div *ngIf="f.loginUser.touched && f.loginUser.invalid" class="alert alert-danger">
+        <div *ngIf="f.loginUser.errors?.['required']">Name is required</div>
+       <div *ngIf="f.loginUser.errors?.['minlength']">Name should be 3 charachter</div>
+
+      </div>
+        <label for="psw"><b>Password</b></label>
+        <input type="email" placeholder="Enter Password" name="psw"  formControlName="email">
+        <div *ngIf="f.email.touched && f.email.invalid" class="alert alert-danger">
+          <div *ngIf="f.email.errors?.['required']">password is required</div>
+          <div *ngIf="f.email.errors?.['email']">Password should be 3 charachter</div>
+          </div>
+        <button type="submit" >Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>-->
+<!--<div class="login-wrapper">
+          <form [formGroup]="loginForm" (ngSubmit)="submit" class="form">
+            <img src="img/avatar.png" alt="">
+            <h2>Login</h2>
+            <div class="input-group">
+              <input type="text"  formControlName="loginUser" required>
+              <label for="loginUser">User Name</label>
+                <div *ngIf="f.loginUser.touched && f.loginUser.invalid" class="alert alert-danger">
+                  <div *ngIf="f.loginUser.errors?.['required']">Name is required</div>
+                 <div *ngIf="f.loginUser.errors?.['minlength']">Name should be 3 charachter</div>
+          
+              </div>
+              
+            </div>
+            <div class="input-group">
+              <input type="email"  formControlName="email" required>
+              <label for="email">Email</label>
+              <div *ngIf="f.email.touched && f.email.invalid" class="alert alert-danger">
+                <div *ngIf="f.email.errors?.['required']">email is required</div>
+               <div *ngIf="f.email.errors?.['email']">email should be valid</div>
+        
+            </div>
+            </div>
+            <div class="input-group">
+              <input type="number"  formControlName="number" required>
+              <label for="number">Phone no</label>
+              <div *ngIf="f.number.touched && f.number.invalid" class="alert alert-danger">
+                <div *ngIf="f.number.errors?.['required']">phone no is required</div>
+               <div *ngIf="f.number.errors?.['minlength']">phone no should be 9 charachter</div>
+        
+            </div>
+            </div>
+            <div class="input-group">
+              <input type="password" formControlName="Password" required>
+              <label for="Password">Password</label>
+              <div *ngIf="f.Password.touched && f.Password.invalid" class="alert alert-danger">
+                <div *ngIf="f.Password.errors?.['required']">password is required</div>
+               <div *ngIf="f.Password.errors?.['minlength']">password should be 5 charachter</div>
+        
+            </div>
+            </div>
+        
+
+        
+        
+           <input type="submit" value="Login" class="btn btn-outline-dark submit-btn" [disabled]="loginForm.invalid" (click)="submit()">
+            <a href="#forgot-pw" class="forgot-pw">Forgot Password?</a>
+          </form>
+      
+         <div id="forgot-pw">
+            <form action="" class="form">
+              <a href="#" class="close">&times;</a>
+              <h2>Reset Password</h2>
+              <div class="input-group">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email</label>
+              </div>
+              <input type="submit" value="Submit" class="submit-btn">
+            </form>
+          </div>
+        </div>
+</section>
+</body>-->
+<!--<h1>{{title}}</h1>
+<input type="text" (keydown)="changeFirstName(myFirstName)" [(ngModel)]="myFirstName">
+<button type="button">change</button>
+<select (change)="changeFirstName(myFirstName)" [(ngModel)]="myFirstName">
+    <option value="first">First</option>
+    <option value="second">Second</option>
+</select>
+<h1>{{myFirstName}}</h1>-->
+<!--<form >
+  <div class="form-group ff">
+    
+    <input type="text" class="form-control ff" id="formGroupExampleInput" placeholder="Enter your name" [(ngModel)]="loginName" name="loginName" required>
+    <!-- <div *ngIf="f.formGroupExampleInput.errors.required">First Name is required</div> -->
+<!--</div>
+  <div class="form-group">
+  
+    <input type="text" class="form-control ff" id="formGroupExampleInput2" placeholder="Enter your email" [(ngModel)]="loginEmail" name="loginEmail">
+  </div>
+  <div class="form-group">
+  
+      <input type="numbers" class="form-control" id="formGroupExampleInput2" placeholder="Enter your number" [(ngModel)]="numBer" name="numBer">
+    </div>
+    <div class="form-check mb-2 mr-sm-2">
+      <input class="form-check-input" type="checkbox" id="inlineFormCheck" [(ngModel)]="whatsApp">
+      <label class="form-check-label dd" for="inlineFormCheck">
+          You can reach me on WhatsApp
+      </label>
+    </div>
+    <div class="form-group">
+  
+      <input type="number" class="form-control ff" id="formGroupExampleInput2" placeholder="Enter your current residence pincode" [(ngModel)]="pinCode" name="pinCode">
+    </div>
+    <button type="button" class="btn btn-lg btn-block e" (click)="setData()">Get Free Estimate</button>
+
+    <p class="k">By submitting this form, you agree to the privacy policy and terms of use<p>
+    
+</form>-->
+<!--<div *ngIf="testValue!=1" >
+
+  <p>pddklwjdwdn nfelwknkendkwnd kklnckdnclksnclk lnldnsdkln</p>
+
+</div>-->
+<!--<table class="table  table-bordered">
+  <thead class="thead-dark">
+  <tr >
+    <th *ngFor="let user of Userlist">
+      <p>{{user}}</p>
+
+    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let user of  Userlist">
+     <p>{{row[user]}}</p>
+    </td>
+  </tr>
+</tbody>
+</table>-->
+
+<style>
+  .zx 
+  {
+    text-align: center;
+    padding: 50px;
+  }
+  .zc 
+  {
+    color: red;
+  }
+  .zk
+  {
+    background-color: black;
+  }
+  .xc 
+  {
+    color: white;
+  }
+</style>
+<h1 class="zx">STUDENT <span class="zc">INFORMTION</span></h1>
+<table class="table ">
+ <thead class="thead-dark">
+  <tr class="zk">
+    <th class="xc">Name</th>
+    <th class="xc">Phone_no</th>
+    <th class="xc">Email</th>
+    <th class="xc">Password</th>
+  </tr>
+</thead>
+  <tbody>
+    <tr *ngFor="let user of userlist">
+     
+     <td>
+     <div [ngStyle]="{'background-color':user.Name=='Preyash'?'orange':'white','height':'50px','width':'100%'}">
+      <div [ngClass]="{'blue-bg':user.Name=='Kehkasa','red-bg':name=='rahul'}">
+
+      <p>{{user.Name}}</p>
+    </div>
+  </div>
+      </td>
+    
+      <td>
+        <div [ngStyle]="{'background-color':user.Name=='Preyash'?'orange':'white','height':'50px','width':'100%'}">
+          <div [ngClass]="{'blue-bg':user.Name=='Kehkasa','red-bg':name=='rahul'}">
+        <p>{{user.phone_no}}</p>
+        </div>
+        </div>
+      </td>
+      <td>
+        <div [ngStyle]="{'background-color':user.Name=='Preyash'?'orange':'white','height':'50px','width':'100%'}">
+          <div [ngClass]="{'blue-bg':user.Name=='Kehkasa','red-bg':name=='rahul'}">
+        <p>{{user.Email}}</p>
+        </div>
+        </div>
+      </td>
+      <td>
+        <div [ngStyle]="{'background-color':user.Name=='Preyash'?'orange':'white','height':'50px','width':'100%'}">
+          <div [ngClass]="{'blue-bg':user.Name=='Kehkasa','red-bg':name=='rahul'}">
+        <p>{{user.Password}}</p>
+        </div>
+        </div>
+      </td>
+   
+  
+    
+    </tr>
+  </tbody>
+</table>
+<!--<div>
+  <div [ngStyle]="{'background-color':name=='Preyash'?'red':'blue','height':'50px','width':'100%'}">
+  
+  </div>
+  <div [ngClass]="{'blue-bg':name=='Preyash','red-bg':name=='rahul'}">
+
+  </div>
+  <div [id]="name=='preyash'?'id1':'id2'">
+
+  </div>
+</div>-->

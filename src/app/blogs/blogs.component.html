@@ -1,0 +1,186 @@
+<!--<section class="a">
+    <h1 class="b">Our Blogs</h1>
+<div class="line"></div>
+    
+   
+    <p class="c">These days are all Happy and Free these days are all share</p>
+                 <p class="d"> them with me oh baby you.</p>
+
+</section>
+<html>
+    <section class="vd">
+<div class="blog">
+    <h1 class="heading">our blog</h1>
+
+    <div class="box-container">
+
+        <div class="box shadow">
+
+            <div class="image">
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/shutterstock_4148348021.jpg" alt="">
+               
+            </div>
+            <div class="content">
+                <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?
+                </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Eaque, odit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+        <div class="box shadow">
+
+            <div class="image">
+                <img src="https://cdn.breathedreamgo.com/wp-content/uploads/2020/03/SS-dosa.jpg" alt="">
+               
+            </div>
+            <div class="content">
+                <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?
+                    </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Eaque, odit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+        <div class="box shadow">
+
+            <div class="image">
+                <img src="https://www.cookingcarnival.com/wp-content/uploads/2015/04/Bhatura.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?
+                    </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Eaque, odit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+        <div class="box shadow">
+
+            <div class="image">
+                <img src="https://www.grihshobha.in/wp-content/uploads/2019/01/maggi-samosa.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?
+                    </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Eaque, odit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+        <div class="box shadow">
+
+            <div class="image">
+                <img src="https://mysterioustrip.com/wp-content/uploads/2019/08/Momos.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?
+                </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Eaque, odit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+        <div class="box shadow">
+
+            <div class="image">
+                <img src="https://media.vogue.in/wp-content/uploads/2020/11/Chilli-chicken-1920x1080.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?
+                    </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Eaque, odit!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</section>
+</html>
+<section class="sd">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-4" style="padding: 130px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SmMWEoi5GVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-2">
+              
+            </div>
+            <div class="col-sm-6 bh">
+                <h2 class="e3">Video <span style="color: red;">Section</span></h2>
+            
+                <p class="bg">Watch our online training Sessions</p>
+                <p  class="bx">The weather started getting rough the tiny ship was tossed if not for the courage of the fearless crew the Minnow would be lost the Minnow would be lost fish do not fry in the kitchen and beans do not burn on the grill.</p>
+            </div>
+        </div>
+    </div>
+
+</section>-->
+
+<table class="table ">
+    <thead class="thead-dark">
+     <tr >
+       <th >IMGAGE</th>
+       <th >NAME</th>
+       <th >PRICE</th>
+       <th >ACTION</th>
+       
+     </tr>
+   </thead>
+     <tbody>
+       <tr *ngFor="let cart of commonService.cartList;let i=index">
+       
+        <td>
+            <img style="height: 250px;" src="{{cart.img}}">
+    
+         </td>
+       
+         <td>
+           {{cart.Name}}
+         </td>
+         <td>
+           {{'$'+cart.price}}
+         </td>
+         <td>
+          <button type="button" (click)="deleteCart(i)"  class="btn btn-primary bn">Action</button>
+          </td>
+        
+      
+     
+       
+       </tr>
+       <tr>
+       
+        <td>
+         
+        </td>
+        <td>
+          Total
+        </td>
+        <td>
+           {{'$'+totalAmount}}
+        </td>
+        <td >
+           <a routerLink="/Gallery"><button type="button" (click)="allDeleteCart()"  class="btn btn-success vf">Check-out</button></a>
+        </td>
+       </tr>
+     </tbody>
+   </table>
